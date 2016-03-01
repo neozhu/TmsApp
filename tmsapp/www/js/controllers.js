@@ -53,4 +53,10 @@ angular.module('starter.controllers', [])
 })
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {
-});
+})
+
+.controller('MyInfoCtrl', function($scope, $stateParams) {
+})
+.controller('TaskListCtrl', function($scope, $stateParams) {
+})
+;
