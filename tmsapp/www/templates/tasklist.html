@@ -1,5 +1,40 @@
 <ion-view view-title="运输任务">
   <ion-content>
-    <h1>Search</h1>
+   <table class="table table-striped table-hover">
+      <thead>
+        <tr >
+          <th>#</th>
+          <th>派车单号</th>
+          <th>起始地</th>
+          <th>目的地</th>
+          <th>订单数</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-click="showtaskdetail(1)">
+         
+          <th scope="row">1</th>
+          <td>000001</td>
+          <td>昆山</td>
+          <td>苏州</td>
+          <td>4</td>
+      
+        </tr>
+        <tr ng-click="showtaskdetail(2)">
+          <th scope="row">2</th>
+          <td>000002</td>
+          <td>昆山</td>
+          <td>苏州</td>
+          <td>3</td>
+        </tr>
+        <tr ng-click="showtaskdetail(3)">
+          <th scope="row">3</th>
+          <td>000003</td>
+          <td>昆山</td>
+          <td>苏州</td>
+          <td>2</td>
+        </tr>
+      </tbody>
+    </table>
   </ion-content>
 </ion-view>

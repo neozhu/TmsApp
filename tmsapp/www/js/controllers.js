@@ -57,6 +57,11 @@ angular.module('starter.controllers', [])
 
 .controller('MyInfoCtrl', function($scope, $stateParams) {
 })
-.controller('TaskListCtrl', function($scope, $stateParams) {
+.controller('TaskListCtrl', function($scope, $stateParams,$location) {
+
+  $scope.showtaskdetail=function(id){
+    console.log('/app/tasklist/' + id);
+    $location.url('/app/tasklist/' + id);
+  }
 })
 ;
